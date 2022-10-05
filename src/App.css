@@ -13,6 +13,13 @@ body{
   border-radius: 5px;
 }
 
+.new-item{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 
+
+}
+
 .todo-list{
   list-style: none;
   margin: 10px 0  0;

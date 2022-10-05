@@ -12,8 +12,10 @@ let [novoItem, setNovoItem] = useState("")
 
   return (
     <div className="container">
+          <div className="new-item">
           <input placeholder="Insira uma Tarefa" value={novoItem} onChange={e => setNovoItem(e.target.value)} type="text" />
           <button onClick={() => adicionarNovoItem()}>Adicionar</button>
+          </div> 
       <ul className="todo-list">
             {lista.map((item, index) =>(
             <li className="todo-item" key={index}>
